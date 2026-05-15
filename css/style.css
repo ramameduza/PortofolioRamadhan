@@ -144,12 +144,23 @@ section h2{
   transform:scale(1.05);
 }
 
+/* EDUCATION */
 .education-container{
   display:grid;
   grid-template-columns:repeat(2,1fr);
   text-align: center;
   gap: 20px;  
 }
+
+/* EXPERIENCE */
+.experience-container{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  text-align: center;
+  gap: 20px; 
+}
+
+
 
 /* PROJECT */
 .project-container{
